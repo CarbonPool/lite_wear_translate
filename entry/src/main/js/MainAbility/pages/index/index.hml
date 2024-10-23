@@ -1,0 +1,16 @@
+<stack class="container">
+    <div
+        tid="id"
+        for="{{v in list}}"
+        class="bar"
+        style="left: {{v.x}}; animation-name: {{v.anime}};"
+    ></div>
+    <div
+        class="bar"
+        style="left: 100px; animation-name: {{anime}};"
+    ></div>
+    <div class="button_group">
+        <input type="button" class="button" on:click="move">移动</input>
+        <input type="button" class="button" on:click="move2">移动2</input>
+    </div>
+</stack>
